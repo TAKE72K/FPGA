@@ -1,0 +1,10 @@
+17:19:14 **** Build of configuration Debug for project pb2_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 12529 C:/Users/88690/Desktop/FPGA/HW3/Pb2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/88690/Desktop/FPGA/HW3/Pb2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2_system/Debug/system.bif --bitstream C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2/Debug/pb2.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2020.2/bin/bootgen  -image C:/Users/88690/Desktop/FPGA/HW3/Pb2/pb2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+17:19:23 Build Finished (took 8s.938ms)
+
