@@ -33,7 +33,7 @@ int main()
 		}
 		else{
 			for(int i=9;i>=9;i--){
-				cout<<a[i]<<" ";
+				cout<<a[i]<<" ";}
 		}
         cout<<"\n";
     }
